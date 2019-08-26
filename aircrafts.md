@@ -23,9 +23,12 @@ In some cases, you might need to use more than 5 points. *The main objective is 
 
 ## Classes
 
-The aircraft should be classified in 4 categories:
+The aircraft should be classified into the following 6 categories:
 
 - **small_aircraft** : light aircrafts, private jets
+
+![Small Aircrafts](http://imagery.airbusds-geo.com/examples/small_aircraft_01.png)
+
 - **large_commercial** : passenger aircraft
 
 ![Large Commercial](http://imagery.airbusds-geo.com/examples/large_commercial_01.png)
@@ -55,3 +58,5 @@ The aircraft should be classified in 4 categories:
 ## Notes
 
 The length or wingspan of the combat aircrafts and helicopters should be larger **15 pixels**. If you encounter objects on the tarmac that might be aircrafts, please tag them as **small_aircraft**.
+
+
