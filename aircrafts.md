@@ -26,7 +26,7 @@ In some cases, you might need to use more than 5 points. *The main objective is 
 
 The aircraft should be classified into the following 6 categories:
 
-- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or only one reactor. They typically accomodate 2 to 6 persons.
+- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or only one reactor. They typically accomodate 2 to 20 persons maximum.
 
 ![Small Aircrafts](resources/small_aircraft_01.png)
 
