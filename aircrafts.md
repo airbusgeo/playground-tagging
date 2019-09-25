@@ -1,6 +1,6 @@
 # Aircraft Tagging
 
-> Version 2019-09-04
+> Version 2019-09-25
 
 ## Geometry
 
@@ -26,9 +26,11 @@ In some cases, you might need to use more than 5 points. *The main objective is 
 
 The aircraft should be classified into the following 6 categories:
 
-- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or only one reactor. They typically accomodate 2 to 20 persons maximum.
+- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or only one reactor. They typically accomodate 2 to 20 persons maximum. This category also includes gliders.
 
 ![Small Aircrafts](resources/small_aircraft_01.png)
+![Small Aircrafts](resources/small_aircraft_02.png)
+![Small Aircrafts](resources/small_aircraft_03.png)
 
 - **large_commercial** : large aircrafts from commercial companies carrying passenger or fret. Main manufacturers are Airbus and Boing. Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors but some have three (McDonnell Douglas DC-10). Lighter commercial aircrafts from ATR, Bombardier or Embraer also fall in this category.
 
@@ -53,7 +55,7 @@ The aircraft should be classified into the following 6 categories:
 - **other_large_military** : all other large military planes like military transport planes and AWACS. They typically have large fuselage to carry tanks or other military equipment. Their shapes are very similar to these of commercial aircrafts. AWACS are easy to identify thanks to the circular radar above them.
 
 ![Large Military](resources/other_large_military_01.png)
-![AWACS](resources/other_large_military_02.png)
+![Large Military](resources/other_large_military_02.png)
 
 ## Important notes
 
@@ -63,7 +65,7 @@ If you encounter objects on the tarmac that might be aircrafts but do not fall i
 
 **Discard** any aircraft that is truncated at the border of the imagery. **Do not discard** an aircraft that is not fully visible for other reasons (i.e. partially covered by a shed).
 
-**Do not annotate** dismantled aircrafts or aircrafts pieces such as an helicopter without blades, an aircraft without wings or wings alone.
+**Do not annotate** blimps (a.k.a zeppelin), hot air balloons, dismantled aircrafts or aircrafts pieces such as an helicopter without blades, an aircraft without wings or wings alone.
 
 ![Not aircraft](resources/not_aircraft.png)
 ![Not helicopter](resources/not_helicopter.png)
