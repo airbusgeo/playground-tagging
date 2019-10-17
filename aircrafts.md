@@ -1,6 +1,6 @@
 # Aircraft Tagging
 
-> Version 2019-09-25
+> Version 2019-09-30
 
 ## Geometry
 
@@ -20,19 +20,19 @@ For helicopters, the five points should be as follows:
 
 ![Helicopter 5 points](resources/aircraft02.png)
 
-In some cases, you might need to use more than 5 points. *The main objective is to make sure that the polygon encompass the whole aircraft*.
+In some cases, you might need to use more than 5 points. **The main objective is to make sure that the polygon encompass the whole aircraft**.
 
 ## Classes
 
 The aircraft should be classified into the following 6 categories:
 
-- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or only one reactor. They typically accomodate 2 to 20 persons maximum. This category also includes gliders.
+- **small_aircraft** : light aircrafts for leisure, private jets and small passengers aircrafts. Most of these aircrafts have propellers or maximum two small reactors. In that case, the engines are mounted on the fuselage or body of the plane. They typically accomodate 2 to 20 persons maximum. This category also includes gliders. 
 
 ![Small Aircrafts](resources/small_aircraft_01.png)
 ![Small Aircrafts](resources/small_aircraft_02.png)
 ![Small Aircrafts](resources/small_aircraft_03.png)
 
-- **large_commercial** : large aircrafts from commercial companies carrying passenger or fret. Main manufacturers are Airbus and Boing. Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors but some have three (McDonnell Douglas DC-10). Lighter commercial aircrafts from ATR, Bombardier or Embraer also fall in this category.
+- **large_commercial** : large aircrafts from commercial companies carrying passenger or fret. These aircrafts generally have 2 to 4 engines mounted under the wings. Main manufacturers are Airbus and Boeing. Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors but some have three (McDonnell Douglas DC-10). Lighter commercial aircrafts from ATR, Bombardier or Embraer also fall in this category.
 
 ![Large Commercial](resources/large_commercial_01.png)
 ![Large Commercial](resources/large_commercial_02.png)
