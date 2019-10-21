@@ -9,4 +9,4 @@ This repository contains rules on how to tag various records in the Playground.
 - [Aircrafts](aircrafts.md)
 - Ships
 - Vehicles
-- Wind Turbines
+- [Wind Turbines](wind_turbines.md)
