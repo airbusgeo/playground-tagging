@@ -10,3 +10,4 @@ This repository contains rules on how to tag various records in the Playground.
 - Ships
 - Vehicles
 - [Wind Turbines](wind_turbines.md)
+- [Circular Storage](circular_storage.md)

@@ -1,5 +1,7 @@
 # Wind turbine tagging 
 
+> Version 2019-10-21
+
 ## Geometry
 
 
@@ -7,11 +9,11 @@ Wind turbines in the imagery should be identified with 3-points polygons. The po
 
 • Point 1 = top of the wind turbine \
 • Point 2 = base of the wind turbine \
-• Point 3 = top of the shadow 
+• Point 3 = top of the shadow 
 
 
 <p align="center"> 
-<img src="ressources_wt/geom.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/geom.png" width="200" height="200" title="hover text">
 </p>
 
 ## Classes
@@ -23,24 +25,24 @@ The wind turbine should be classified into the following 3 categories:
 If the object is clearly seen, you should only select the **Wind Turbine** annotation.
 
 <p align="center"> 
-<img src="ressources_wt/wt_only.png" width="150" title="hover text">
+<img src="resources/wind_turbine/wt_only.png" width="150" title="hover text">
 </p>
 
 
 <p align="center"> 
-<img src="ressources_wt/wt_tag.png" width="400" title="hover text">
+<img src="resources/wind_turbine/tag.png" width="400" title="hover text">
 </p>
 
 <p align="middle"> 
-<img src="ressources_wt/wt2.png" width="200" height="200" title="hover text" >
-<img src="ressources_wt/tag.png" width="200" height="200"  title="hover text">
+<img src="resources/wind_turbine/wt2.png" width="200" height="200" title="hover text" >
+<img src="resources/wind_turbine/tag.png" width="200" height="200"  title="hover text">
 
 </p>
 
 • **Wind Turbine without shadow** 
 
 <p align="center"> 
-<img src="ressources_wt/shadow_tag.png" width="150" title="hover text">
+<img src="resources/wind_turbine/shadow_tag.png" width="150" title="hover text">
 </p>
 
 
@@ -50,14 +52,14 @@ Concerning the geometry, you should draw the polygon starting from the top of th
 
 
 <p align="center"> 
-<img src="ressources_wt/clouds.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/clouds.png" width="200" height="200" title="hover text">
 </p>
 
 
 • **Wind Turbine without body**
 
 <p align="center"> 
-<img src="ressources_wt/wt.png" width="150" title="hover text">
+<img src="resources/wind_turbine/wt.png" width="150" title="hover text">
 </p>
 
 
@@ -66,7 +68,7 @@ It is sometimes difficult to see the body of the wind turbine. In this case, you
 Concerning the geometry, you should guess the first point (even if you are not sure) and complete the polygon with the base and the top of the shadow.
  
  <p align="center"> 
-<img src="ressources_wt/body.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/body.png" width="200" height="200" title="hover text">
 </p>
 
 
@@ -77,14 +79,14 @@ Concerning the geometry, you should guess the first point (even if you are not s
 Sometimes the object is **not completely in the AOI** (Aera Of Interest). If almost one of the three points of the polygon is in the zone, you should annotate it.
 
  <p align="center"> 
-<img src="ressources_wt/aoi.png" width="200" height="200" title="hover text">
-<img src="ressources_wt/aoi2.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/aoi.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/aoi2.png" width="200" height="200" title="hover text">
 </p>
 
 
 Moreover, the top of the object, the base and the top of the shadow can be aligned. You should draw the polygon with the three points even if it is not a triangle. 
 
  <p align="center"> 
-<img src="ressources_wt/aligned.png" width="200" height="200" title="hover text">
+<img src="resources/wind_turbine/aligned.png" width="200" height="200" title="hover text">
 
 </p>
