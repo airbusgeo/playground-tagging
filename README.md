@@ -11,3 +11,4 @@ This repository contains rules on how to tag various records in the Playground.
 - Vehicles
 - [Wind Turbines](wind_turbines.md)
 - [Circular Storage](circular_storage.md)
+- [Well Pads](well_pads.md)
