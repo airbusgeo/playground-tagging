@@ -4,9 +4,9 @@
 
 ## Geometry
 
-This project aims to tag **ships**.
+This project aims to tag **ships** in high resolution satellite images (with resolution typically from 30 cm. to 2 m.).
 
-Records should be either annotated as **oriented bounding-box** (i.e. a rectangle or **4-vertices polygon**, with no differentiation between the front and the back of a car) or a **n-points polygon** 
+Records should be annotated as an **oriented bounding-box** (with orientation going from back to front of ship) or as a rectangle i.e. a **4-vertices polygon**. 
 
 <p align="center"> 
     <img src="resources/ships/geom.png" width="200" height="200" title="Examples of ship geometries">
@@ -30,7 +30,7 @@ Every record must have either **marina**, **ship** or **unkown** tag. A marina i
 
 The tag **unknow** is used when the user is sure that the object is neither a **ship**, nor a **marina**. This one should not be used very often.
 
-When the user recognise an object as a **ship**, he may be able to go one step further and find the **class** of the vessel. **8** classes have been selected to represent the whole diversity of the ships that may be encountered. A ninth class has been added, **unclassified**, to be used when the user hesitate between several classes for a single object. For smaller ships, the difference between two ships of different classes are extremely minimal, and often, the context of the scene is used to settle the dispute. Please find the different classes that may be encountered with some examples:
+When the user recognise an object as a **ship**, he may be able to go one step further and find the **class** of the vessel. **Eight classes** have been selected to represent the whole diversity of the ships that may be encountered. A extra class has been added, **unclassified**, to be used when the user cannot decide which class to select. For smaller ships, the difference between two ships of different classes are extremely minimal, and often, the context of the scene should be used to decide. Please find the different classes that may be encountered with examples:
 
 - **Barge**
 
