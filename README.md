@@ -7,7 +7,7 @@ This repository contains rules on how to tag various records in the Playground.
 ## Type of records
 
 - [Aircrafts](aircrafts.md)
-- Ships
+- [Ships](ships.md)
 - [Vehicles (i.e. Cars and Trucks)](vehicles.md)
 - [Wind Turbines](wind_turbines.md)
 - [Circular Storage](circular_storage.md)
