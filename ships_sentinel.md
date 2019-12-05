@@ -24,7 +24,11 @@ Every record must have either **marina**, **ship** or **unkown** tag. A marina i
 
 The tag **unknow** is used when the user is sure that the object is neither a **ship**, nor a **marina**. This one should not be used very often.
 
-Due to the resolution level, the class of the ship could not be determined with confidence. Only large ships can be seen on Sentinel-2 imagery, reducing the number of possible classes to a small set: **merchant**, large **military**, large **passenger** vessels, and large **barge**. But it is not expected to classify the type of ship.
+Due to the resolution level, the class of the ship could not be determined with confidence. Only large ships can be seen on Sentinel-2 imagery, reducing the number of possible classes to a small set: **merchant**, large **military**, large **passenger** vessels, and large **barge**.
+
+> **But it is not expected to classify the type of ship.**
+
+## Examples
 
 Find below some examples of ships that can be encountered:
 
