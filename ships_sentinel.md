@@ -14,19 +14,13 @@ Records should be annotated as an **oriented bounding-box** (with orientation go
 
 ## Classes
 
-A taxonomy has been defined in order to represent the different specific cases a user can encounter.
-
-<p align="center"> 
-    <img src="resources/ships/taxonomy.png" height="400" title="Ship Detection taxonomy">
-</p>
-
-Every record must have either **marina**, **ship** or **unkown** tag. A marina is a dock or basin with moorings and supplies for yachts and small boats. 
+Every record should be tagged has either **ship**, **marina**, **ship** or **unkown** tag. A marina is a dock or basin with moorings and supplies for yachts and small boats.
 
 The tag **unknow** is used when the user is sure that the object is neither a **ship**, nor a **marina**. This one should not be used very often.
 
-Due to the resolution level, the class of the ship could not be determined with confidence. Only large ships can be seen on Sentinel-2 imagery, reducing the number of possible classes to a small set: **merchant**, large **military**, large **passenger** vessels, and large **barge**.
+Due to the resolution level, the class of the ship can not be determined with confidence. Only large ships can be seen on Sentinel-2 imagery, reducing type of objects to merchant, large military, large passenger vessels and large barges.
 
-> **But it is not expected to classify the type of ship.**
+**It is not expected to classify the type of ship.**
 
 ## Examples
 
