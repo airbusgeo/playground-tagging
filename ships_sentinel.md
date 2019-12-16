@@ -18,10 +18,6 @@ Every record should be classified as **ship**.
 
 Due to the resolution of the imagery, the class of the ship can not be determined with confidence. Only large ships can be seen on Sentinel-2 imagery, reducing type of objects to merchant, large military, large passenger vessels and large barges.
 
-## Notes
-
-Please, do **label truncated ships** at the border of the imagery.
-
 ## Examples
 
 Find below some examples of ships that can be encountered:
@@ -35,3 +31,16 @@ Find below some examples of ships that can be encountered:
 ![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_5.png)
 ![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_6.png)
 ![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_7.png)
+
+## Notes
+
+Please, do **label truncated ships** at the border of the imagery.
+
+When ships are moored alongside, they should be labelled **individually**. As an example, this image contains **10 ships**.
+
+![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_8.png)
+
+Most white patches at sea are ships. This image contains **5 ships** and the following **3 ships**.
+
+![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_9.png)
+![Example of a ship on a Sentinel-2 image](resources/ships/sentinel2/ship_10.png)
