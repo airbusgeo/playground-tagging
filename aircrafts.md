@@ -30,7 +30,7 @@ We focus into **detection** of the aircraft and **reconnaissance** of its genera
 
 - **`small_aircraft`**
 
-  Light aircrafts for leisure, private jets and small passengers aircrafts.  
+  Light aircrafts for leisure, private jets and small passengers aircrafts. 
 
   This category can have the following sub-categories:
 
@@ -55,42 +55,53 @@ We focus into **detection** of the aircraft and **reconnaissance** of its genera
 
 - **`large_commercial`**
 
-  Large aircrafts from commercial companies carrying more than 100 passengers or cargo. These aircrafts have a lenght of 40 m. and more (i.e. over 80 pixels on 50cm imagery). Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors mounted under the wings but some have a third reactor on the tail (McDonnell Douglas DC-10). More information on [airliners](https://en.wikipedia.org/wiki/Airliner).
+  Large aircrafts from commercial companies carrying more than 100 passengers or cargo. These aircrafts have a length of 40 m. and more (i.e. over 80 pixels on 50cm imagery). Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors mounted under the wings but some have a third reactor on the tail (McDonnell Douglas DC-10). More information on [airliners](https://en.wikipedia.org/wiki/Airliner).
 
   ![Large Commercial](resources/aircraft/large_commercial_01.png)
   
 
 - **`helicopter`**
 
-  This sub-class includes all helicopters, civilian and military, with single and double rotors. Military helicopters, as civilian ones, are mostly used for transport, observation and rescue but can also be attack helicopters. More information on [helicopters](https://en.wikipedia.org/wiki/Helicopter) and [military helicopters](https://en.wikipedia.org/wiki/Military_helicopter).
+  This category includes all helicopters, civilian and military, with single and double rotors. Military helicopters, as civilian ones, are mostly used for transport, observation and rescue but can also be attack helicopters. More information on [helicopters](https://en.wikipedia.org/wiki/Helicopter) and [military helicopters](https://en.wikipedia.org/wiki/Military_helicopter).
 
   ![Helicopter](resources/aircraft/helicopter_01.png)
-  ![Helicopter](resources/aircraft/helicopter_02.png)
 
-- **`fighters`**
+  This category can have the following sub-class:
+
+    - **`tandem_rotor_helicopter`**
+
+      Tandem rotor helicopters have two large horizontal rotor mounted one in front of the other. Currently this configuration is mainly used for large cargo helicopters. More information in [Wikipedia](https://en.wikipedia.org/wiki/Tandem_rotors)
+
+      ![Helicopter](resources/aircraft/helicopter_02.png)
+ 
+- **`fighter`**
   
-  This sub-class includes combat aircrafts, military fighters and military jets
+  This sub-class includes combat aircrafts, military fighters and military jets. Several aircrafts have a **dual-use** as fighter and bomber. These aircrafts should be considered as **`fighter`**. 
 
   ![Fighters](resources/aircraft/fighter_01.png)
   ![Fighters](resources/aircraft/fighter_02.png)
 
-- **`bombers`**
+  **Military training aircraft** are smaller than regular fighters. They are not actually fighters but still of military use. They should be annotated in this class if the military use is clear. Otherwise, they should be annotated as **`small_aircraft`**.
+
+- **`bomber`**
   
   This sub-class is for military bombers. They typically have large wingspan, four reactors, thin bulk
 
   ![Bombers](resources/aircraft/bombers_01.png)
   ![Bombers](resources/aircraft/bombers_02.png)
 
+  Bombers only include large and undoubtedly large bombers.
+
 - **`other_large_military`**
 
-  All other large military aircrafts all in this sub-class. They are mainly military transport planes, refuelers and AWACS. They typically have large fuselage to carry tanks or other military equipment. Their shapes are very similar to these of commercial aircrafts. AWACS are easy to identify thanks to the circular radar above them.
+  All other large military aircrafts all in this sub-class. They are mainly military transport planes, refuelers and AWACS. They typically have large fuselage to carry tanks or other military equipment. Their shapes are very similar to these of commercial aircrafts so you can use other contextual information to classify them. AWACS are easy to identify thanks to the circular radar above them.
 
   ![Large Military](resources/aircraft/other_large_military_01.png)
   ![Large Military](resources/aircraft/other_large_military_02.png)
 
 ## Important notes
 
-The length and wingspan of aircrafts and helicopters should be **larger than 10 pixels**.
+The length and wingspan of aircrafts and helicopters should be **larger than 10 pixels**. Typical dimensions are given as guidance but flexibility is possible here.
 
 If you encounter objects on the tarmac that might be aircrafts but do not fall in the previous categories, please tag them as **unknown_aircraft**.
 
