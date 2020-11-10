@@ -1,24 +1,16 @@
 # Aircraft Tagging
 
-> Version 2020-10-12
+> Version 2020-11-10
 
 ## Geometry
 
-Planes in the imagery should be identified with 5-points polygons. 
+Aircrafts surch as planes and helicopters should be identified with a polygon on the imagery. The polygon should be as tight as possible i.e. using the minimum number of points possible while fully covering the aircraft. For the sake of precision, the points should be located on the object itself. 
 
-### For planes, polygons should be drawn with the following method:
-
-- Point 1 = aircraft nose
-- Point 2 = right wing
-- Point 3 and 4 = tail
-- Point 4 or 5 = left wing
+Exemple for plane:
 
   ![Aircraft 5 points](resources/aircraft/aircraft01.png)
 
-### For helicopters, the five points should be as follows:
-
-- Point 1 = tail
-- Point 2, 3, 4, 5 = end of each blade
+Exemple for helicopter:
 
   ![Helicopter 5 points](resources/aircraft/aircraft02.png)
 
@@ -26,7 +18,7 @@ In some cases, you might need to use more than 5 points. **The main objective is
 
 ## Classes
 
-We focus into **detection** of the aircraft and **reconnaissance** of its general type. As such, the aircraft should be classified into the following 6 main categories and potential sub-categories:
+We focus into **detection** of the aircraft and **classification** of its general type. As such, the aircraft should be classified into the following 6 main categories and potential sub-categories:
 
 - **`small_aircraft`**
 
@@ -103,11 +95,9 @@ We focus into **detection** of the aircraft and **reconnaissance** of its genera
 
 The length and wingspan of aircrafts and helicopters should be **larger than 10 pixels**. Typical dimensions are given as guidance but flexibility is possible here.
 
-If you encounter objects on the tarmac that might be aircrafts but do not fall in the previous categories, please tag them as **unknown_aircraft**.
+If you encounter objects on the tarmac that might be aircrafts but do not fall in the previous categories, please tag them as **`unknown_aircraft`**.
 
-**Do not annotate** any aircraft that is truncated at the border of the imagery. This should be covered by appropriate overlapping of imagery tiles. 
-
-**Annotate** an aircraft that is not fully visible for other reasons (i.e. partially covered by a shed).
+If an aircraft is not fully visible (i.e. partially covered by a shed or at the border of the imagery), **annotate only the portion that is visible**.
 
 **Do not annotate** blimps (a.k.a zeppelin), hot air balloons, dismantled aircrafts or aircrafts pieces such as an helicopter without blades, an aircraft without wings or wings alone.
 
