@@ -4,7 +4,7 @@
 
 ## Geometry
 
-Aircrafts surch as planes and helicopters should be identified with a polygon on the imagery. The polygon should be as tight as possible i.e. using the minimum number of points possible while fully covering the aircraft. For the sake of precision, the points should be located on the object itself. 
+Aircrafts surch as planes and helicopters should be identified with a polygon on the imagery. **The polygon should be as tight as possible** i.e. using the minimum number of points possible while fully covering the aircraft. For the sake of precision, the points should be located on the object itself. 
 
 Exemple for plane:
 
@@ -41,15 +41,22 @@ We focus into **detection** of the aircraft and **classification** of its genera
 
   - **`regional_commercial`**
 
-    Lighter commercial aircrafts from ATR, Bombardier or Embraer fall in this category. They typically accomodate up to 100 persons maximum. Their length is between 25 m. and 40 m. i.e. 50 to 80 pixels on 50cm imagery. More information on [regional airliners](https://en.wikipedia.org/wiki/List_of_regional_airliners).
+    Lighter commercial aircrafts from ATR, Bombardier or Embraer fall in this category. They typically accomodate up to 100 persons maximum. Their length is between 25 m. and under 40 m. i.e. 50 to under 80 pixels on 50cm imagery. More information on [regional airliners](https://en.wikipedia.org/wiki/List_of_regional_airliners).
 
-    ![Regional Commercial](resources/aircraft/large_commercial_02.png)
+    ![Regional Commercial](resources/aircraft/regional_commercial_01.png)
+    ![Regional Commercial](resources/aircraft/regional_commercial_02.png)
 
 - **`large_commercial`**
 
   Large aircrafts from commercial companies carrying more than 100 passengers or cargo. These aircrafts have a length of 40 m. and more (i.e. over 80 pixels on 50cm imagery). Most common commercial aircrafts are manufactured by Airbus (A320, A340, A380) and Boeing (B737, B747, B777). They mostly have two or four reactors mounted under the wings but some have a third reactor on the tail (McDonnell Douglas DC-10). More information on [airliners](https://en.wikipedia.org/wiki/Airliner).
 
+  ![Large Commercial](resources/aircraft/large_commercial_02.png)
   ![Large Commercial](resources/aircraft/large_commercial_01.png)
+
+
+  Beware, these aircrafts look similar but fall into two different classes due to their size i.e. `regional_commercial` and `large_commercial` aircrafts with a limit at 35 meters or 70 pixels on 50 cm imagery:
+
+  ![Sizes](resources/aircraft/sizes.png)
   
 
 - **`helicopter`**
