@@ -7,9 +7,9 @@
 
 Wind turbines in the imagery should be identified with 3-points polygons. The polygon should be drawn with the following method: 
 
-• Point 1 = top of the wind turbine \
-• Point 2 = base of the wind turbine \
-• Point 3 = top of the shadow 
+• Point 1=top of the wind turbine \
+• Point 2=base of the wind turbine \
+• Point 3=top of the shadow 
 
 
 <p align="center"> 

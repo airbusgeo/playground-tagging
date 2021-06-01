@@ -114,3 +114,5 @@ If an aircraft is not fully visible (i.e. partially covered by a shed or at the 
 **Annotate all aircrafts** including flying aircrafts i.e. not resting on the taxiways. You may notice a chromatic halo close to a flying aircraft as below.
 
 ![Flying aircraft](resources/aircraft/flying_aircraft.png)
+
+**Here is a little [guide](aircrafts_examples.md) to help you with some very common aircrafts.**
